@@ -1,0 +1,90 @@
+﻿@page
+@model CV.Pages.PortfolioModel
+@{
+    ViewData["Title"] = "Portfolio";
+}
+
+<section class="dark-section">
+    <h1 class="light-text text-center mb-5">Portfolio</h1>
+    <div class="row justify-content-center">
+        <div class="card black-card col-lg-5">
+            <div class="card-body">
+                <h5 class="card-title">MPC Website</h5>
+                <hr />
+                <p class="card-text">
+                    <a href="https://mpc.herokuapp.com" target="_blank">mpc.herokuapp.com</a>
+                    <br />
+                    <ul class="list-unstyled">
+                        <li>
+                            This website was created to host general information about
+                            candidates to showcase to potential client companies the type
+                            of talent that we worked with.
+                        </li>
+                        <li>
+                            This is the improved version of my first MPC site
+                            that was hosted with GitHub. Originally a single page web application,
+                            the navbar and footer was fine for the static layout, but after 
+                            incorporating Google Analytics to track web traffic and which 
+                            profiles were viewed the most often to have a more targetted outreach,
+                            the navbar and footer had to be added and changed to each individual page.
+                            I used EJS to solve the issue along with Heroku's web hosting service.
+                        </li>
+                        <li>
+                            Technologies used: HTML, CSS, JavaScript, Embedded JavaScript,
+                            Node, Express, Heroku, GitHub, Google Analytics, Bootstrap
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card black-card col-lg-5">
+            <div class="card-body">
+                <h5 class="card-title">Razor Pizzeria</h5>
+                <hr />
+                <p class="card-text">
+                    <a href="https://razorpizzeria.azurewebsites.net" 
+                        target="_blank" >razorpizzeria.azurewebsites.net</a>
+                    <br />
+                    <ul class="list-unstyled">
+                        <li>
+                            This website was created following the Tutorials EU's ASP.NET course. 
+                            The database is only configured to a local server, so the orders page 
+                            and confirm orders buttons do not work for now.
+                        </li>
+                        <li>
+                            Technologies used: HTML, CSS, C#, .NET 6, ASP.NET, Entity, Bootstrap, SQL
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="card black-card col-lg-5">
+            <div class="card-body">
+                <h5 class="card-title">Blazor App</h5>
+                <hr />
+                <p class="card-text">
+                    <a href="https://danielblazor.azurewebsites.net" target="_blank">
+                        danielblazer.azurewebsites.net
+                        </a>
+                    <br />
+                    <ul class="list-unstyled">
+                        <li>
+                            This website was created following the Tutorials EU's ASP.NET course to 
+                            learn the basics of Blazor/Razor. The pages built were the Shopping List 
+                            and the Converter pages.Some of the concepts that were explored were 
+                            using Databinding, Event Handling, Forms and Validations, Layouts, and 
+                            CSS Isolation.
+                        </li>
+                        <li>
+                            The website for the Fetch Data is no longer avaliable or at least
+                            during testing.
+                        </li>
+                        <li>
+                            Technologies used: HTML, CSS, C#, .NET 6, ASP.NET, Blazor, Razor
+                        </li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
