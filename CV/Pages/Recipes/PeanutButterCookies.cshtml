@@ -1,0 +1,85 @@
+﻿@page
+@model CV.Pages.Recipes.PeanutButterCookiesModel
+@{
+    ViewData["Title"] = "Peanut Butter Cookies";
+}
+
+<head>
+    <style type="text/css">
+        @@media print {
+            nav {
+                display: none;
+            }
+
+            footer {
+                display: none;
+            }
+
+            #recipe-link {
+                display: none;
+            }
+
+            header {
+                display: none;
+            }
+
+            .dark-section {
+                width: 100%;
+                color: black;
+                background-color: white;
+            }
+
+            .recipe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<section class="dark-section">
+    <a class="nav-link text-light" id="recipe-link" asp-area="" asp-page="/Recipes">Back to Recipes</a>
+    <div class="recipe">
+        <h1 class="text-center">Peanut Butter Cookies</h1>
+        <h3>Yield: 3 lbs 12 oz</h3>
+        <h2>Equipment:</h2>
+        <ul>
+            <li>1 - Mixer</li>
+            <li>1 - Paddle Attachment</li>
+            <li>1 - Rubber Spatula</li>
+            <li>1 - Ice Cream Scoop</li>
+            <li>1 - Sifter</li>
+            <li>3 - Half Size Sheet Trays</li>
+            <li>2 - Parchment Paper</li>
+        </ul>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>12 oz Butter, softened</li>
+            <li>8 oz Sugar, granulated</li>
+            <li>8 oz Sugar, light brown</li>
+            <li>12 oz Peanut Butter</li>
+            <li>5 g Salt (if using unsalted peanut butter</li>
+            <li>4 oz Egg, whole</li>
+            <li>10 g Vanilla Extract</li>
+            <li>1.5 lb Pastry Flour</li>
+            <li>5 g Baking Soda</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Preheat oven to 375&#xb0;F.</li>
+            <li>In stand mixer with paddle attachment, cream together butter, sugars, peanut butter, and salt (if using).</li>
+            <li>Mix in eggs and vanilla, a bit at a time.</li>
+            <li>Sift together the pastry flour and baking soda. Incorporate into the mixer. Be careful to not overmix.</li>
+            <li>Scoop dough with the ice cream scoop onto a parchment lined sheet tray.</li>
+            <li>With a greased fork, press a criss-cross pattern to slightly flatten the cookies.</li>
+            <li>Bake for 11-14 minutes or until golden brown on the edges.</li>
+        </ol>
+        <h2>Notes:</h2>
+        <ul>
+            <li>You can substitute any nut butter to make a different type of cookie. My favorite is Walnut Butter. </li>
+            <li>I prefer to use my own <a class="print-recipe-link" asp-area="" asp-page="/Recipes/PeanutButter">Peanut Butter</a> recipe.</li>
+            <li>Taking the cookies out with golden brown edges will result in a chewy cookie. For more crunchy, bake slightly longer.</li>
+            <li>I tend to use the pattern 3-2-3-2-3 for the cookies on the tray for best spacing.</li>
+            <li>If the cookies spread out too much, the butter is too warm, try chilling the cookies in the refrigerator for 5-10 minutes before baking.</li>
+        </ul>
+    </div>
+</section>

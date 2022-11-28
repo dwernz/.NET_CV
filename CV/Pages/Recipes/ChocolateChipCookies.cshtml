@@ -1,0 +1,78 @@
+﻿@page
+@model CV.Pages.Recipes.ChocolateChipCookiesModel
+@{
+    ViewData["Title"] = "Chocolate Chip Cookies";
+}
+
+<head>
+    <style type="text/css">
+        @@media print {
+            nav {
+                display: none;
+            }
+
+            footer {
+                display: none;
+            }
+            #recipe-link {display: none;}
+            header {display: none;}
+            .dark-section {
+                width: 100%;
+                color: black;
+                background-color: white;
+            }
+            .recipe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<section class="dark-section">
+    <a class="nav-link text-light" id="recipe-link" asp-area="" asp-page="/Recipes">Back to Recipes</a>
+    <div class="recipe">
+        <h1 class="text-center">Chocolate Chip Cookies</h1>
+        <h3>Yield: 2 lbs 8 oz</h3>
+        <h2>Equipment:</h2>
+        <ul>
+            <li>1 - Mixer</li>
+            <li>1 - Paddle Attachment</li>
+            <li>1 - Rubber Spatula</li>
+            <li>1 - Ice Cream Scoop</li>
+            <li>1 - Sifter</li>
+            <li>3 - Half Size Sheet Trays</li>
+            <li>2 - Parchment Paper</li>
+        </ul>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>5 oz Butter, softened</li>
+            <li>4 oz Sugar, granulated</li>
+            <li>4 oz Sugar, light brown</li>
+            <li>4 g Salt</li>
+            <li>3 oz Egg, whole</li>
+            <li>5 g Vanilla Extract</li>
+            <li>10 oz Pastry Flour</li>
+            <li>4 g Baking Soda</li>
+            <li>10 oz Chocolate Chips, semi-sweet</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Preheat oven to 350&#xb0;F.</li>
+            <li>In stand mixer with paddle attachment, cream together butter, sugars, and salt.</li>
+            <li>Mix in eggs and vanilla, a bit at a time.</li>
+            <li>Sift together the pastry flour and baking soda. Incorporate into the mixer. Be careful to not overmix.</li>
+            <li>Fold in chocolate chips.</li>
+            <li>Scoop dough with the ice cream scoop onto a parchment lined sheet tray.</li>
+            <li>Bake for 10-12 minutes or until golden brown on the edges.</li>
+        </ol>
+        <h2>Notes:</h2>
+        <ul>
+            <li>I got this recipe from Le Cordon Bleu as a student, and out of all the chocolate chip cookie recipes, this is my favorite.</li>
+            <li>Taking the cookies out with golden brown edges will result in a chewy cookie. For more crunchy, bake slightly longer.</li>
+            <li>The smaller chips look better in the finished cookie. The larger ones tend to be "buried" inside the cookie.</li>
+            <li>You can substitute the chocolate chips for any type of baking chips.</li>
+            <li>I tend to use the pattern 3-2-3-2-3 for the cookies on the tray for best spacing.</li>
+            <li>If the cookies spread out too much, the butter is too warm, try chilling the cookies in the refrigerator for 5-10 minutes before baking.</li>
+        </ul>
+    </div>
+</section>

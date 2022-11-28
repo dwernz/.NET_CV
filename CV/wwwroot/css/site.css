@@ -64,3 +64,8 @@ body {
 .card {
     margin: .5%;
 }
+
+.recipe {
+    width: 60%;
+    margin: 0 auto;
+}

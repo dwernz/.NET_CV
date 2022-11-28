@@ -1,0 +1,66 @@
+﻿@page
+@model CV.Pages.Recipes.PeanutButterModel
+@{
+    ViewData["Title"] = "Peanut Butter";
+}
+
+<head>
+    <style type="text/css">
+        @@media print {
+            nav {
+                display: none;
+            }
+
+            footer {
+                display: none;
+            }
+            #recipe-link {display: none;}
+            header {display: none;}
+            .dark-section {
+                width: 100%;
+                color: black;
+                background-color: white;
+            }
+            .recipe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<section class="dark-section">
+    <a class="nav-link text-light" id="recipe-link" asp-area="" asp-page="/Recipes">Back to Recipes</a>
+    <div class="recipe">
+        <h1 class="text-center">Peanut Butter</h1>
+        <h3>Yield: 1 1/2 cups</h3>
+        <h2>Equipment:</h2>
+        <ul>
+            <li>1 - Food Processor</li>
+        </ul>
+        <h2>Ingredients:</h2>
+        <ul>
+            <li>2 cups Peanuts, deshelled</li>
+            <li>1 tbsp honey</li>
+            <li>2 tbsp peanut oil</li>
+            <li>3 tbsp brown sugar</li>
+            <li>1 tsp vanilla extract</li>
+        </ul>
+        <h2>Instructions:</h2>
+        <ol>
+            <li>In food processor, combine all ingredients and puree until desired consistency.</li>
+        </ol>
+        <h2>Notes:</h2>
+        <ul>
+            <li>The general consistency will be chunky and this is normal.</li>
+            <li>I generally use this recipe for my peanut butter cookies.</li>
+            <li>Replace Peanuts and Peanut oil with Walnuts and Walnut oil for Walnut Butter. Walnuts are great for brain health.</li>
+            <ul>
+                <li>
+                    Use the Walnut butter for Walnut Butter Cookies, the walnuts are slightly bitter, offsetting the sweetness 
+                    of the sugar better than regular peanut butter cookies.
+                </li>
+            </ul>
+            
+        </ul>
+    </div>
+</section>
