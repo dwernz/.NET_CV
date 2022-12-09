@@ -4,33 +4,107 @@
     ViewData["Title"] = "Recipes";
 }
 
-<section class="dark-section">
+<section class="dark-section text-center">
 
-    <h1 class="text-center">Recipes</h1>
+    <h1>Recipes</h1>
     
-    <div class="row justify-content-center text-center">
+    <h3 class="mt-5">Desserts</h3>
+    <div class="row justify-content-center">
         <div class="col-4">
-            <a class="nav-link text-light" asp-area="" asp-page="/Recipes/ChocolateChipCookies">Chocolate Chip Cookies</a>
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/ChocolateChipCookies">Chocolate Chip Cookies</a>
         </div>
         <div class="col-4">
-            <a class="nav-link text-light" asp-area="" asp-page="/Recipes/PeanutButter">Peanut Butter</a>
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/PeanutButterCookies">Peanut Butter Cookies</a>
         </div>
         <div class="col-4">
-            <a class="nav-link text-light" asp-area="" asp-page="/Recipes/PeanutButterCookies">Peanut Butter Cookies</a>
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/ToastedMarshmallowIceCream">Toasted Marshmallow Ice Cream</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/VanillaGenoiseCake">Vanilla Genoise Cake</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/VanillaIceCream">Vanilla Ice Cream</a>
         </div>
     </div>
-    
 
     <hr />
 
-    <h3>Notes:</h3>
-    <ul>
-        <li>Eggs are large eggs unless otherwise stated.</li>
-        <li>Butter is unsalted butter unless otherwise stated.</li>
-        <li>Salt is Diamond Crystal Kosher Salt unless otherwise stated.</li>
-        <li>Sugar is Granulated Sugar unless otherwise stated.</li>
-        <li>Oz is weight, fl oz is volume.</li>
-        <li>AP Flour is All Purpose Flour.</li>
-        <li>AP Flour can be substituted for Pastry Flour.</li>
-    </ul>
+    <h3 class="mt-5">Spices and Seasoning Mixtures</h3>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/TacoSeasoning">Taco Seasoning</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/BurgerSeasoning">Burger Seasoning</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <h3 class="mt-5">Brines and Marinades</h3>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/HerbCitrusTurkeyBrine">Herb-Citrus Turkey Brine</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <h3 class="mt-5">Pickled and Preserved Items</h3>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/BreadAndButterPickles">Bread and Butter Pickles</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <h3 class="mt-5">Soups and Sauces</h3>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/NewEnglandClamChowder">New England Clam Chowder</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/AlfredoSauce">Alfredo Sauce</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/CaptainMorgansSpicedRumBBQSauce">Captain Morgan's Spiced Rum BBQ Sauce</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <h3 class="mt-5">Miscellaneous</h3>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/PeanutButter">Peanut Butter</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/ItalianButtercream">Italian Buttercream</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/CandiedWalnuts">Candied Walnuts</a>
+        </div>
+        <div class="col-4">
+            <a class="nav-link recipe-a" asp-area="" asp-page="/Recipes/AlmondCheese">Almond Cheese</a>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="text-center">
+        <h3>Notes:</h3>
+        <ul class="list-unstyled">
+            <li>Eggs are large eggs unless otherwise stated.</li>
+            <li>Butter is unsalted butter unless otherwise stated.</li>
+            <li>Salt is Diamond Crystal Kosher Salt unless otherwise stated.</li>
+            <li>Sugar is Granulated Sugar unless otherwise stated.</li>
+            <li>Milk is whole milk unless otherwise stated.</li>
+            <li>Oz is weight, fl oz is volume.</li>
+            <li>AP Flour is All Purpose Flour.</li>
+            <li>AP Flour can be substituted for Pastry Flour.</li>
+            <li>White and Black Pepper are freshly ground, unless otherwise stated.</li>
+        </ul>
+    </div>
+    
 </section>

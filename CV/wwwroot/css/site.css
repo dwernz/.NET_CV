@@ -69,3 +69,42 @@ body {
     width: 60%;
     margin: 0 auto;
 }
+
+.recipe-a {
+    font-size: 1.2em;
+}
+
+.recipe-a:hover {
+    font-size: 1.4em;
+    color: red;
+}
+
+/*************** Print Section ***************/
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    #recipe-link {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .dark-section {
+        width: 100%;
+        color: black;
+        background-color: white;
+    }
+
+    .recipe {
+        width: 100%;
+    }
+}
