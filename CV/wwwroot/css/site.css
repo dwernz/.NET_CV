@@ -80,6 +80,26 @@ body {
     color: red;
 }
 
+.cert-img {
+    width: 80%;
+}
+
+.cert-img:hover {
+    width: 100%;
+    padding: 5px;
+    border: 5px double #00beef;
+    opacity: .5;
+}
+
+.nav-link:hover {
+    font-size: 1.1em;
+}
+
+.short-hr {
+    width: 30%;
+    margin: 2% auto;
+}
+
 /*************** Print Section ***************/
 
 @media print {
